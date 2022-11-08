@@ -1,0 +1,61 @@
+{
+	"name": "shopify-starter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mrandyclark/shopify-starter.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mrandyclark/shopify-starter/issues"
+	},
+	"homepage": "https://github.com/mrandyclark/shopify-starter#readme",
+	"scripts": {
+		"dev": "next dev -p 4001",
+		"build": "next build",
+		"start": "next start",
+		"export": "next export",
+		"lint": "eslint --ignore-path .gitignore .",
+		"lint:fix": "eslint --fix",
+		"format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+	},
+	"engines": {
+		"npm": ">=8.1.0",
+		"node": ">=16.13.0"
+	},
+	"dependencies": {
+		"@vercel/edge": "^0.0.4",
+		"axios": "^0.26.0",
+		"graphql": "^16.3.0",
+		"mobx": "^6.3.13",
+		"mobx-react-lite": "^3.2.3",
+		"next": "^13.0.2",
+		"next-pwa": "^5.6.0",
+		"prop-types": "^15.8.1",
+		"react": "^18.2.0",
+		"react-top-loading-bar": "^2.1.0",
+		"uuid": "^8.3.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.17.5",
+		"@tailwindcss/typography": "^0.5.1",
+		"autoprefixer": "^10.4.2",
+		"babel-loader": "^8.2.3",
+		"circular-dependency-plugin": "^5.2.2",
+		"eslint": "^7.32.0",
+		"eslint-config-next": "^12.3.1",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-react": "7.28.0",
+		"next-sitemap": "^2.5.2",
+		"postcss": "^8.4.5",
+		"prettier": "^2.5.1",
+		"tailwindcss": "3.0.21",
+		"typescript": "4.8.4",
+		"webpack-bundle-analyzer": "^4.5.0"
+	}
+}
